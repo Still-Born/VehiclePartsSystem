@@ -1,0 +1,26 @@
+# ── FRONTEND ──
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# ── BACKEND ──
+backend-api/bin/
+backend-api/obj/
+backend-api/*.user
+backend-api/appsettings.Development.json
+
+# ── VISUAL STUDIO ──
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ── OS FILES ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── LOGS ──
+*.log
+npm-debug.log*
